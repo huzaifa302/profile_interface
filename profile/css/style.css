@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+h2,h3,h4,h5,h6,p {
+  font-family: 'Poppins';
+}
+p {
+  font-size: 14px;
+}
+section.profile {
+  background-color: #f8e3ea;
+}
+section.profile .profile-wrapper {
+  background-color: #fff;
+  height: 100vh;
+}
+.sidebar {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+.sidebar .bar {
+  background-color: #be6fe2;
+  color: white;
+  font-size: 23px;
+  padding: 12px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.sidebar .save {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px 0;
+}
+.sidebar .save a {
+  color: #be6fe2;
+  font-size: 27px;
+}
+.sidebar ul.wrapper {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+.sidebar ul.wrapper li {
+  margin: 14px 0px;
+}
+.sidebar ul.wrapper li a {
+  color: #ccc;
+}
+.sidebar ul.wrapper li a.active {
+  color: #be6fe2;
+}
+.sidebar ul.wrapper li a i {
+  font-size: 25px;
+}
+.content-wrapper .about {
+  position: relative;
+}
+.content-wrapper .about .img-box img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+  transform: scaleY(1.1);
+  box-shadow: 0px 0px 40px 20px #ccc;
+}
+.content-wrapper .about .social {
+  position: absolute;
+  bottom: 0;
+  padding: 70px 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.content-wrapper .about .social h3 {
+  color: #fff;
+  font-size: 34px;
+}
+.content-wrapper .about .social ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.content-wrapper .about .social ul li {
+  margin: 0px 11px;
+}
+.content-wrapper .about .social ul li a {
+  color: #fff;
+}
+.bio {
+  padding: 0px 0 35px 20px;
+}
+.bio .intro {
+  padding-bottom: 12px;
+  height: 100px;
+  overflow: auto;
+  margin-right: 20px;
+}
+.intro::-webkit-scrollbar {
+  width: .2em;
+}
+.intro::-webkit-scrollbar-track {
+  background:#ccc;
+}
+.intro::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  outline: 0;
+}
+.service {
+  padding-top: 15px;
+}
+.service .title h2 {
+  font-weight: 700;
+  color: #000;
+  font-size: 40px;
+  text-transform: lowercase;
+  padding-bottom: 20px;
+}
+.service .service-card i {
+  font-size: 30px;
+  color: #be6fe2;
+  padding-bottom: 15px;
+}
+.service .service-card .title-wrapper h3 {
+  padding-bottom: 5px;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+.service .service-card p {
+  color: #b6abab;
+}
+.bio .intro p {
+  color: #b6abab;
+}
